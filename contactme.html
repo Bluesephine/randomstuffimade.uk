@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+    .modal-overlay {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5)
+    }
+
+    .modal-overlay.show {
+        display: block;
+    }
+
+    .modal-box {
+        background: white;
+        width: 90%;
+        max-width: 400px;
+        margin: 86px auto;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .modal-close {
+        position: absolute;
+        right: 12px;
+        top: 8px;
+        font-size: 24px;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <button id="open">Get in touch!</button>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-box">
+            <button id="close" class="modal-close">x</button>
+            <h1 style="text-align: center; margin-bottom: 0;"><span
+                    style="font-family: Arial, Helvetica, sans-serif;">Get in touch!</span></h1>
+            <h3 style="margin-top: 0; font-family: Arial, Helvetica, sans-serif; text-align: center;">(If you want to of
+                course...)</h3>
+            <hr>
+            <div style="font-family: Arial, Helvetica, sans-serif; text-align: center; line-height: 0.3;">
+                <p>Discord: @bluemoon7</p>
+                <p>Email: hi@randomstuffimade.uk</p>
+                <p>CW Radio: Unavailable</p>
+                <p>Semaphore Flags: If you can see me...</p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+<script>
+    <!-- the actual functionality-->
+
+    const modal = document.getElementById("modal");
+    const open = document.getElementById("open");
+    const close = document.getElementById("close");
+
+    function openModal() {
+        modal.classList.add("show");
+    }
+
+    function closeModal() {
+        modal.classList.remove("show");
+    }
+
+    open.addEventListener("click", openModal);
+    close.addEventListener("click", closeModal);
+
+
+
+</script>
+
+</html>
