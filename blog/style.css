@@ -16,6 +16,48 @@
 
     .bodyText {
         font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
         text-align: justify;
+        margin-inline-start: 70px;
+        margin-inline-end: 70px;
+        margin-bottom: 20;
+    }
+
+    #textBox {
+        background-color: rgb(178, 185, 191);
+        visibility: visible;
+        border-style: solid;
+    
+        border-left: solid;
+        border-left-width: 70px;
+        border-left-color: #ffff;
+    
+        
+        border-right: solid;
+        border-right-width: 68px;
+        border-right-color: #ffff;
+
+        border-top: #ffff;
+        border-bottom: #ffff;
+    }
+
+    .txtboxText {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .subHeading { 
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: -8px;
+        font-weight: lighter;
+    }
+
+    .blogText { 
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        line-height: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
