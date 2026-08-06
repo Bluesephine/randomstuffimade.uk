@@ -1,6 +1,5 @@
 *.env
-/.vscode
-.gitignore
 robots.txt
 README.md
+*.txt
 
