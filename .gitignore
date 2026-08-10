@@ -3,3 +3,5 @@ robots.txt
 README.md
 *.txt
 
+blog/writinginprogress.html
+.gitignore
