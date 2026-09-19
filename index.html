@@ -61,6 +61,11 @@
 	<script src="https://u.widget.st/ar.js"></script>
 </head>
 
+<!--LastFM Widget-->
+
+
+
+
 <div>
 	<h1>Blue's Place</h1>
 </div>
@@ -137,38 +142,44 @@
 		<p style="margin-top: -10px; text-align: left;">CB Radio: unavailable :( </p>
 
 	</div>
+</details>
 
+<script src="lastfm.js" type="module"></script>
 
+<details>
+
+	<style>
+		lastfm-tracks {
+			box-sizing: border-box;
+			border: 1px solid #000;
+			width: 410px;
+			height: 183px;
+			margin-left: 35%;
+		}
+	</style>
+
+	<summary>Find out what my music taste is like...</summary>
+	<lastfm-tracks interval="35" user="blueschoons" class="no-albums" apikey="a4383ce4a427fc16c3b40ee36306cd00">
+	</lastfm-tracks>
 </details>
 
 
-
-
-<details style="margin-top: 1px; position: relative;">
-	<summary style=" margin-bottom: 10px;">Webrings i'm not yet part of </summary>
-
-	<div style="margin-left: 35%; margin-right: 35%; width: 200px; text-align: center; margin-top: 10px;">
-		<script src="https://transring.neocities.org/ring.js" data-widget="cloud"></script>
-	</div>
-
-</details>
-
-<hr>
+<hr style="margin-bottom: 20px;">
 
 <!--blog button-->
-<div style="margin-left: 62%; margin-top: -15px; margin-bottom: 1px; display: flex; flex-wrap: wrap;">
+<div style="margin-left: 60%; margin-top: 10px; margin-bottom: 1px; display: flex; flex-wrap: wrap;">
 	<a href="/blog/index.html"><button>visit</button></a>
 </div>
-<p style="text-align: left; position: absolute; margin-top: -22px; margin-left: 35%; margin-bottom: -15px;">the blog,
+<p style="text-align: left; position: absolute; margin-top: -22px; margin-left: 35%; margin-right: 40%;">the blog,
 	where i post my scribbles and rambles</p>
 
-<hr>
+<hr style="margin-top: 1%;">
 
 
 <div id="divBox">
 
 	<a href="https://abigail.railmiles.me">
-		<h2 style="margin-top: -2px;">View my RailMiles</h2>
+		<h2 style="margin-top: 2px;">View my RailMiles</h2>
 	</a>
 	<img src="https://public.railmiles.me/signatures/590415741d487bda835aa418422b55a2.png"
 		style="margin-left: 15%; margin-top: -10px;">
@@ -179,12 +190,7 @@
 
 <hr style="margin-top: 1%;">
 
-<details>
-	<summary style="margin-bottom: 3%; margin-top: 1%;">a random counter thing</summary>
-	<div style="padding-left: 34%; margin-top: -30px;">
-		<iframe src="/counter thing/counter.html" style="width: auto; height: 120px;"></iframe>
-	</div>
-</details>
+
 
 
 
